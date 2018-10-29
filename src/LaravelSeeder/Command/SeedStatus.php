@@ -1,6 +1,6 @@
 <?php
 
-namespace Eighty8\LaravelSeeder\Command;
+namespace Rocket\Seeder\Command;
 
 use Illuminate\Support\Collection;
 use Symfony\Component\Console\Input\InputOption;

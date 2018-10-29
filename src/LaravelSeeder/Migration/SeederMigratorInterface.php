@@ -1,8 +1,8 @@
 <?php
 
-namespace Eighty8\LaravelSeeder\Migration;
+namespace Rocket\Seeder\Migration;
 
-use Eighty8\LaravelSeeder\Repository\SeederRepositoryInterface;
+use Rocket\Seeder\Repository\SeederRepositoryInterface;
 
 interface SeederMigratorInterface
 {

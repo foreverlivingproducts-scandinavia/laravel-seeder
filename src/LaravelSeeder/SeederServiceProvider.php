@@ -1,19 +1,19 @@
 <?php
 
-namespace Eighty8\LaravelSeeder;
+namespace Rocket\Seeder;
 
-use Eighty8\LaravelSeeder\Command\SeedInstall;
-use Eighty8\LaravelSeeder\Command\SeedMake;
-use Eighty8\LaravelSeeder\Command\SeedRefresh;
-use Eighty8\LaravelSeeder\Command\SeedReset;
-use Eighty8\LaravelSeeder\Command\SeedRollback;
-use Eighty8\LaravelSeeder\Command\SeedRun;
-use Eighty8\LaravelSeeder\Command\SeedStatus;
-use Eighty8\LaravelSeeder\Migration\SeederMigrationCreator;
-use Eighty8\LaravelSeeder\Migration\SeederMigrator;
-use Eighty8\LaravelSeeder\Migration\SeederMigratorInterface;
-use Eighty8\LaravelSeeder\Repository\SeederRepository;
-use Eighty8\LaravelSeeder\Repository\SeederRepositoryInterface;
+use Rocket\Seeder\Command\SeedInstall;
+use Rocket\Seeder\Command\SeedMake;
+use Rocket\Seeder\Command\SeedRefresh;
+use Rocket\Seeder\Command\SeedReset;
+use Rocket\Seeder\Command\SeedRollback;
+use Rocket\Seeder\Command\SeedRun;
+use Rocket\Seeder\Command\SeedStatus;
+use Rocket\Seeder\Migration\SeederMigrationCreator;
+use Rocket\Seeder\Migration\SeederMigrator;
+use Rocket\Seeder\Migration\SeederMigratorInterface;
+use Rocket\Seeder\Repository\SeederRepository;
+use Rocket\Seeder\Repository\SeederRepositoryInterface;
 use Illuminate\Support\Composer;
 use Illuminate\Support\ServiceProvider;
 

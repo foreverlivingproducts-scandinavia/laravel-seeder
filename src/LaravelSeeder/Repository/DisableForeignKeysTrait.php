@@ -1,6 +1,6 @@
 <?php
 
-namespace Eighty8\LaravelSeeder\Repository;
+namespace Rocket\Seeder\Repository;
 
 use DB;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Eighty8\LaravelSeeder\Command;
+namespace Rocket\Seeder\Command;
 
 use App;
 use Illuminate\Database\Console\Migrations\MigrateMakeCommand;

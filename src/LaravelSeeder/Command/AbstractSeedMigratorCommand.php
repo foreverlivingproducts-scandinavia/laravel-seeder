@@ -1,8 +1,8 @@
 <?php
 
-namespace Eighty8\LaravelSeeder\Command;
+namespace Rocket\Seeder\Command;
 
-use Eighty8\LaravelSeeder\Migration\SeederMigratorInterface;
+use Rocket\Seeder\Migration\SeederMigratorInterface;
 use Illuminate\Console\Command;
 
 abstract class AbstractSeedMigratorCommand extends Command

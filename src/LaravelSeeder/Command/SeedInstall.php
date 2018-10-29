@@ -1,9 +1,9 @@
 <?php
 
-namespace Eighty8\LaravelSeeder\Command;
+namespace Rocket\Seeder\Command;
 
-use Eighty8\LaravelSeeder\Repository\SeederRepository;
-use Eighty8\LaravelSeeder\Repository\SeederRepositoryInterface;
+use Rocket\Seeder\Repository\SeederRepository;
+use Rocket\Seeder\Repository\SeederRepositoryInterface;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 
