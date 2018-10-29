@@ -46,28 +46,3 @@ When you install LaravelSeeder, various artisan commands are made available to y
 <tr><td>seed:make</td><td>Makes a new seed class in the environment you specify.</td></tr>
 <tr><td>seed:install</td><td>You don't have to use this... it will be run automatically when you call "seed"</td></tr>
 </table>
-
-Local Development
-============
-A Dockerfile with PHP 7.2, XDebug and Composer installed is bundled with the project to facilitate local development.
-
-To easily bring up the local development environment, use the Docker Compose configuration:
-
-```
-docker-compose up -d --build
-```
-
-By default, the entrypoint script will install the Composer dependencies for you.
-
-To run the test suite, execute the following:
-
-```
-docker-compose exec laravel-seeder test.sh
-```
-
-To run the code coverage suite, execute the following:
-```
-docker-compose exec laravel-seeder code-coverage.sh
-```
-
-Happy testing!
