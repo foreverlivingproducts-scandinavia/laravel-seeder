@@ -1,6 +1,5 @@
-# LaravelSeeder
+# Rocket Seeder
 
-[![Build Status](https://travis-ci.org/eighty8/laravel-seeder.svg?branch=master)](https://travis-ci.org/eighty8/laravel-seeder)
 
 Seeding as it is currently done in Laravel is intended only for dev builds, but what if you're iteratively creating your 
 database and want to constantly flush it and repopulate it during development? 
@@ -8,7 +7,7 @@ database and want to constantly flush it and repopulate it during development?
 What if you want to seed a production database with different data from what you use in development? What if you want to 
 seed a table you've added to a database that is currently in production with new data?
 
-LaravelSeeder takes the database migration features in Laravel and extends them to database seeders, making them "migratable". 
+Rocket Seeder takes the database migration features in Laravel and extends them to database seeders, making them "migratable". 
 All of the functionality you have grown accustomed to with Laravel migrations have been mirrored and behave similarly for seeders.
 
 Requirements
@@ -20,8 +19,7 @@ Requirements
 Installation
 ============
 
-- Run ```composer require eighty8/laravel-seeder```
-- Add ```Eighty8\LaravelSeeder\SeederServiceProvider::class``` to your providers array in ```app/config/app.php```
+- Run ```composer require rocket/seeder```
 - Run ```php artisan vendor:publish``` to push config files to your config folder if you want to override the name of the seeds folder or the name of the table where seeds are stored
 
 
